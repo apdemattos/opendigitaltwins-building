@@ -1,0 +1,16 @@
+{
+  "@id": "dtmi:com:syyclops:SubSystem;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Sub System"
+  },
+  "extends": ["dtmi:com:willowinc:System;1"],
+  "contents": [
+    {
+      "@type": "Relationship",
+      "name": "subSystemOf",
+      "displayName": "sub system of"
+    }
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}
